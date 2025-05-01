@@ -1,5 +1,5 @@
 ## 編碼與解碼:基礎題
-#### ex1
+#### ASCII
 ```
 編碼與解碼是資訊領域日常都在使用的技術，如Ascii、Base64、Base32各有其適用處。
 ASCII(American Standard Code for Information Interchange)美國資訊交換標準代碼是基於拉丁字母的一套電腦編碼系統，
