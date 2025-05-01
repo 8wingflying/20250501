@@ -15,6 +15,17 @@ https://zh.wikipedia.org/wiki/ASCII
 善用網路線上資源
 試著用Google查察 ascii decoder
 ```
+#### 摩斯編碼與解碼
+```
+先看看維基百科Wikipedia的說明
+https://en.wikipedia.org/wiki/Morse_code
 
+你可以善用線上許多摩斯編碼
+https://morsecode.scphillips.com/translator.html
+
+來解解底下的題目吧
+
+.. -. ..-. --- ... . -.-. ..-. .-.. .- --. .. ... -- --- .-. ... .. -. --.
+```
 ## 編碼與解碼:進階題
 
