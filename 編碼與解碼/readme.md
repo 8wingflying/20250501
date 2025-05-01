@@ -1,3 +1,6 @@
+## 編碼與解碼
+- 編碼`en`code
+- 解碼`de`code
 ## 編碼與解碼:基礎題
 #### ASCII
 ```
@@ -24,6 +27,19 @@ https://zh.wikipedia.org/wiki/ASCII
 
 QnJlYWtBTExDVEZ7NTN1c1pRM2hXVzI1ZGNoWjdkWGV9
 ```
+
+#### Base32
+```
+編碼與解碼是資訊領域日常都在使用的技術，Base32是由使用26個字母A-Z和數字0-9的編碼。
+
+請問你對Base32編碼與解碼的技術了解嗎?
+
+你知道如何解碼下列資料嗎:
+
+IJZGKYLLIFGEYQ2UIZ5TS6BUHA2VMUZXO5UWS5CCLJMFKVLIJVSX2===
+```
+- 進階解法 ==> 請用python base64模組解題
+
 #### 摩斯編碼與解碼
 ```
 先看看維基百科Wikipedia的說明
@@ -36,5 +52,13 @@ https://morsecode.scphillips.com/translator.html
 
 .. -. ..-. --- ... . -.-. ..-. .-.. .- --. .. ... -- --- .-. ... .. -. --.
 ```
+#### 第一堂base64`編碼`
+```
+請問底下字串的base64編碼為何?
+BreakallCTF{happyhackinghighhaaha}
+```
+- 進階解法 ==> 請用python base64模組解題
+
+#### 
 ## 編碼與解碼:進階題
 
