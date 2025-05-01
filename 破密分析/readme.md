@@ -1,3 +1,18 @@
+## 密碼學
+- 古典密碼學
+- 現代密碼 1970年代興起
+  - 對稱金鑰加密 ==> DES(Data Encryption Standard，1976)
+    - 區塊加密法
+    - 串流加密法 
+  - 公開金鑰加密 ==> RSA(1977)
+  - HAsh雜湊函數 ==> 數位簽章 ==> PKI
+- 量子密碼(Quantum cryptography)
+  - https://zh.wikipedia.org/zh-tw/%E9%87%8F%E5%AD%90%E5%AF%86%E7%A2%BC%E5%AD%B8 
+  - 利用量子力學的特性來加密的科學。
+  - 量子密碼學最著名的例子是量子金鑰分發 
+- 後量子密碼(Post-Quantum Cryptography (PQC))
+  - https://en.wikipedia.org/wiki/Post-quantum_cryptography
+  - https://www.nist.gov/cybersecurity/what-post-quantum-cryptography 
 ## 古典密碼破秘分析
 - 凱撒密碼(Caesar_cipher)
   - 頻率分析法 
