@@ -15,6 +15,15 @@ https://zh.wikipedia.org/wiki/ASCII
 善用網路線上資源
 試著用Google查察 ascii decoder
 ```
+#### Base64
+```
+編碼與解碼是資訊領域日常都在使用的技術，如Ascii、Base64、Base32各有其適用處，
+請問你對Base64編碼與解碼的技術了解嗎?
+
+你知道如何解碼下列資料嗎:
+
+QnJlYWtBTExDVEZ7NTN1c1pRM2hXVzI1ZGNoWjdkWGV9
+```
 #### 摩斯編碼與解碼
 ```
 先看看維基百科Wikipedia的說明
