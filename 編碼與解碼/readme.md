@@ -1,6 +1,6 @@
 ## 編碼與解碼
 - 編碼`en`code
-- 解碼`de`code
+- 解碼`de`code ==> 解碼器`de`code`r`
 ## 編碼與解碼:基礎題
 #### ASCII
 ```
