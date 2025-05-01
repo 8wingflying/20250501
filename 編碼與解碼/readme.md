@@ -59,6 +59,35 @@ BreakallCTF{happyhackinghighhaaha}
 ```
 - 進階解法 ==> 請用python base64模組解題
 
-#### 
-## 編碼與解碼:進階題
+#### 第一堂Unicode
+```
+你了解什麼是Unicode嗎?
+https://zh.wikipedia.org/wiki/Unicode
 
+請試著使用線上工具解碼：
+
+\u0042\u0072\u0065\u0061\u006b\u0041\u004c\u004c\u0043\u0054\u0046\u007b\u006d\u0079\u005f\u0066\u0069\u0072\u0073\u0074\u005f\u0055\u006e\u0069\u0043\u0030\u0064\u0065\u005f\u0033\u004f\u005f\u0045\u0061\u0073\u0079\u007d
+
+線上工具：
+https://www.ifreesite.com/unicode-ascii-ansi.htm
+http://annion.kingbig.idv.tw/tool/column/web/unicode-ascii-ansi.htm
+```
+## 編碼與解碼:進階題
+#### 國外競賽題:alexctf-2017: CR1: Ultracoded
+```
+Fady didn't understand well the difference between encryption and encoding,
+so instead of encrypting some secret message to pass to his friend, he encoded it!
+
+Hint: Fady's encoding doens't handly any special character
+```
+#### 國外競賽題: Internetwache CTF 2016: The hidden message
+```
+My friend really can’t remember passwords. So he uses some kind of obfuscation(代碼混淆).
+Can you restore the plaintext?
+
+Attachment: misc50.zip
+```
+#### 國外競賽題:
+```
+
+```
