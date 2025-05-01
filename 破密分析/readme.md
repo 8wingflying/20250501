@@ -1,11 +1,12 @@
 ## 密碼學
 - 古典密碼學
-- 現代密碼 1970年代興起
+- 現代密碼:
+  - 1970年代興起 ==> 以難解的數學問題當作安全依據 ==>會被量子電腦無情的摧殘 
   - 對稱金鑰加密 ==> DES(Data Encryption Standard，1976)
     - 區塊加密法
     - 串流加密法 
-  - 公開金鑰加密 ==> RSA(1977)
-  - HAsh雜湊函數 ==> 數位簽章 ==> PKI
+  - 公開金鑰加密 ==> RSA(1977)==> 數位簽章 ==> PKI
+  - HAsh雜湊函數              ==> 數位簽章 ==> PKI
 - 量子密碼(Quantum cryptography)
   - https://zh.wikipedia.org/zh-tw/%E9%87%8F%E5%AD%90%E5%AF%86%E7%A2%BC%E5%AD%B8 
   - 利用量子力學的特性來加密的科學。
@@ -13,6 +14,7 @@
 - 後量子密碼(Post-Quantum Cryptography (PQC))
   - https://en.wikipedia.org/wiki/Post-quantum_cryptography
   - https://www.nist.gov/cybersecurity/what-post-quantum-cryptography 
+
 ## 古典密碼破秘分析
 - 凱撒密碼(Caesar_cipher)
   - 頻率分析法 
@@ -117,3 +119,65 @@ qC62<p{{r%uL(92E0`D0#_%cfnm]kN
 
 主動學習:請說明其原理
 ```
+## 進階破密分析102:
+#### 進階破密分析102:CRY11_PythonCrypto
+```
+錒錒去參加BREAKALLCTF 練習賽, 其中有一題密碼學的破密分析 讓她昏頭
+
+你能教她如何解這題嗎?
+
+密文(ciphertext)如下
+
+cvqBeqacRtqazEigwiAobxrKobxrAobxrLwgk8Lwgk8CrtuiTzahfFreqc{bnjrZwgk8Ikgd4Pj85ePgb_e_rwqr7fvbmHjklo3tews_hmkogooyf0vbnk0ii87Drfgh_n kiwutfb0ghk9ro987k5tfb_hjiouo087ptfcv}
+```
+#### 進階破密分析102:CRY12_變形caesar密碼
+```
+有一題RC3 CTF的題目困擾小梅許久,你能幫她解出來嗎?
+
+題目提示如下:
+“The fault, dear Brutus, is not in our stars, but in ourselves.”
+(I.ii.141) Julius Caesar in William Shakespeare’s Julius Caesar
+
+密文(CipherText): 7sj-ighm-742q3w4t
+
+請你解出明文!
+```
+
+#### 進階破密分析102:CRY13_affine-cipher
+```
+巅巅去參加國外CTF競賽,其中有一題讓她困擾不已. 你能幫她解出來嗎?
+
+她只記得加密規則如下:
+for each letter of cipher text its position in the alphabet is the position of the original letter multiplied by 4 and shifted by 15 character
+
+shift over alphabet is cyclic, so 'z' shifted by 1 is _ and _ shifted by 1 is 'a'
+
+aplhabet consists of letters from 'a' to 'z' and symbol '_'
+
+letter 'a' has position 0, symbol '_' has position 26 (following 'z')
+
+密文如下: ifpmluglesecdlqp_rclfrseljpkq
+
+請你解出明文吧!
+```
+#### 進階破密分析102:CRY14_加密的奧義
+```
+阿義去參加CTF競賽,有一題困擾他許久,你能完成底下加密方法嗎?
+
+加密方法:
+將每個數字 mod 37後所得到的答案依序轉成對應的字母:
+0-25 對應到大寫的英文字母(0是A, 1是B,...依此類推),
+26-35對應到0-9數字,
+36 對應到底線('_').
+
+數字: 91 322 57 114 40 406 272 147 239 285 353 272 77 110 296 262 299 323 255 337 150 102
+
+請問數字破密後得到的明文為何?
+答案格式:BreakallCTF{加密後的答案}
+```
+
+
+
+
+
+
