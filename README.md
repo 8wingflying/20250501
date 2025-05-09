@@ -13,3 +13,9 @@ http://192.168.1.239
 - [My First Hacking Day](https://github.com/8wingflying/MyFirstHackingDay)
   - [Windows 滲透測試](https://github.com/8wingflying/MyFirstHackingDay/tree/main/%E9%A7%AD%E5%AE%A2%E6%94%BB%E9%98%B2%E5%AF%A6%E6%88%B0)
   - [DVWA網站滲透測試](https://github.com/8wingflying/MyFirstHackingDay/tree/main/%E7%B6%B2%E7%AB%99%E6%BB%B2%E9%80%8F%E6%B8%AC%E8%A9%A6) 
+
+# IPAS 證照班
+- IPAS 資安工程師證照班(初階)
+- IPAS 資安工程師證照班(中階)
+- IPAS AI應用規劃師證照班(初階)
+- IPAS AI應用規劃師證照班(中階)
